@@ -26,3 +26,7 @@ Run docker image in local
 `$docker pull mysql:latest`
 `$docker run -d --name test-mysql -e MYSQL_ROOT_PASSWORD=strong_password -p 3306:3306 mysql:latest`
 `$docker exec -it test-mysql bash`
+
+## how to run Spring Boot and MySQL together using docket compose
+`$docker compose up -d`
+`$docker compose down`
